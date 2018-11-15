@@ -1,12 +1,17 @@
 <?php 
-// use the following namespace
+
+namespace FachProjekt\Tests
+
 use PHPUnit\Framework\TestCase;
+use FachProjekt\HelloWorld; 
 
 class HelloWorldTest extends TestCase
 {
 
     public function testSayHi()
     {
-        $this->assertTrue(true); 
+        $helloWorld = new HelloWorld(); 
+        
+        $this->assertTrue("Hello World", $helloWorld->sayHi()); 
     }
 }

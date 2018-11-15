@@ -1,5 +1,7 @@
 <?php 
 
+namespace FachProjekt
+
 class HelloWorld
 {
 
