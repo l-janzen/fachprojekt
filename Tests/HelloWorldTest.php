@@ -1,6 +1,6 @@
 <?php 
 
-namespace FachProjekt\Tests
+namespace FachProjekt\Tests; 
 
 use PHPUnit\Framework\TestCase;
 use FachProjekt\HelloWorld; 
