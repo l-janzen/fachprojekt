@@ -2,8 +2,8 @@ language: php
 
 # list any PHP version you want to test against
 php:
-  
+
   # aliased to a recent 7.x version
   - 7.0
 
-script: phpunit --configuration phpunit_config.xml --coverage-text
+script: phpunit --configuration phpunit_config.xml 
