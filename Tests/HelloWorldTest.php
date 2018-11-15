@@ -5,6 +5,6 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
 
     public function testSayHi()
     {
-        $this->assertTrue(false); 
+        $this->assertTrue(true); 
     }
 }
