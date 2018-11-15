@@ -3,7 +3,8 @@
 namespace FachProjekt\Tests; 
 
 use PHPUnit\Framework\TestCase;
-use FachProjekt\HelloWorld; 
+
+require_once "../HelloWorld.php"; 
 
 class HelloWorldTest extends TestCase
 {
