@@ -7,6 +7,6 @@ class HelloWorldTest extends TestCase
 
     public function testSayHi()
     {
-        $this->assertTrue(true); 
+        $this->assertTrue(false); 
     }
 }
